@@ -5,7 +5,7 @@ Gamemap::Gamemap() {}
 Gamemap::Gamemap(int w, int h) : width(w), height(h) {}
 void Gamemap::allocateMap() // 分配map的記憶體
 {
-    if (width <= 0 || height <= 0)
+    if (width <= 0 || height <= 0) // 如果寬度或高度小於等於0，則不分配記憶體
     {
         throw invalid_argument("Width and height must be positive");
     }
@@ -29,7 +29,7 @@ void Gamemap::deallocateMap() // 釋放map的記憶體
 void Gamemap::setWidth(int w) // 設定地圖寬度
 // 這裡的w是指寬度的長度 不是指邊界的長度
 {
-    if (w <= 0)
+    if (w <= 0) // 如果寬度小於等於0，則不設定
     {
         throw invalid_argument("Width must be positive");
     }
@@ -44,7 +44,7 @@ void Gamemap::setWidth(int w) // 設定地圖寬度
 void Gamemap::setHeight(int h) // 設定地圖高度
 // 這裡的h是指高度的長度 不是指邊界的長度
 {
-    if (h <= 0)
+    if (h <= 0) // 如果高度小於等於0，則不設定
     {
         throw invalid_argument("Height must be positive");
     }

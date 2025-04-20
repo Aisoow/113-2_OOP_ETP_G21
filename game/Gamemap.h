@@ -13,19 +13,19 @@ private:
     void deallocateBorder(); // 釋放border的記憶體
 public:
     Gamemap();
-    Gamemap(int w, int h);
-    void setWidth(int w);
-    void setHeight(int h);
-    int getWidth();
-    int getHeight();
-    void setMap(int x, int y, bool value);
-    bool getMap(int x, int y);
-    void setBorder(int x, int y);
-    bool getBorder(int x, int y);
-    void printMap();
-    void printBorder();
-    void clearMap();
-    void clearBorder();
-    void initMap(); // 初始化地圖
+    Gamemap(int w, int h);                 // 建構子
+    void setWidth(int w);                  // 設定地圖寬度
+    void setHeight(int h);                 // 設定地圖高度
+    int getWidth();                        // 取得地圖寬度
+    int getHeight();                       // 取得地圖高度
+    void setMap(int x, int y, bool value); // 設定地圖特定區域的值
+    bool getMap(int x, int y);             // 取得地圖特定區域的值
+    void setBorder(int x, int y);          // 設定邊界
+    bool getBorder(int x, int y);          // 設定邊界
+    void printMap();                       // 印出地圖
+    void printBorder();                    // 印出邊界
+    void clearMap();                       // 清除地圖
+    void clearBorder();                    // 清除邊界
+    void initMap();                        // 初始化地圖
 };
 #endif // !GAMEMAP_H
