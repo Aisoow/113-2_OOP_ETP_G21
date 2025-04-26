@@ -3,9 +3,12 @@
 class Food
 {
 private:
-    /* data */
+    int x, y;
 public:
-    Food(/* args */);
+    Food(int width, int height);
+    void respawn(int width, int height);
+    int getX() const;
+    int getY() const;
     ~Food();
 };
 #endif // !FOOD_H
