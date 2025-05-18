@@ -4,6 +4,7 @@ class Food
 {
 private:
     int x, y;
+
 public:
     Food(int width, int height);
     void respawn(int width, int height);

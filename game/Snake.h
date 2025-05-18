@@ -1,29 +1,22 @@
 ﻿#ifndef SNAKE_H
-#define SNAKE_H	
-#include <vector>
-#include <Windows.h>
+#define SNAKE_H
 
-const int GAME_WIDTH = 40;
-const int GAME_HEIGHT = 20;
-
-enum Direction { STOP = 0, UP, DOWN, LEFT, RIGHT };
-
-class Snake {
+class Snake
+{
 private:
-	int headX, headY;//蛇头坐标
-	Direction dir;//蛇头方向
-	char headChar;//方向字符成员
-	std::vector<int>bodyX;//蛇身坐标
-	std::vector<int>bodyY;
+    int headX, headY;           // 蛇頭坐標
+    int bodyX[100], bodyY[100]; // 蛇身坐標
+    int length;                 // 蛇身長度
 
 public:
-	Snake();
-
-	void ChangeDirection(char key);//改变方向
-	void Move();//移动
-	void Draw();//绘制
-
-	int GetHeadX() { return headX; }//获取蛇头坐标
-	int GetHeadY() { return headY; }
+    Snake();
+    void setHead(int x, int y);            // 設定蛇頭坐標
+    void setBody(int index, int x, int y); // 設定特定索引處的蛇身坐標
+    void setLength(int len);               // 設定蛇身長度
+    int getHeadX();                        // 取得蛇頭X坐標
+    int getHeadY();                        // 取得蛇頭Y坐標
+    int getBodyX(int index);               // 取得蛇身X坐標
+    int getBodyY(int index);               // 取得蛇身Y坐標
+    int getLength() const;                 // 取得蛇身長度
 };
 #endif

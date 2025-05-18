@@ -1,0 +1,31 @@
+{
+    "tasks": [
+        {
+            "type": "cppbuild",
+            "label": "C/C++: g++.exe 建置多檔案",
+            "command": "C:\\msys64\\ucrt64\\bin\\g++.exe",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-g",
+                "${workspaceFolder}/Game/game.cpp",
+                "${workspaceFolder}/Game/Snake.cpp",
+                "${workspaceFolder}/Game/Gamemap.cpp",
+                "${workspaceFolder}/Game/Food.cpp",
+                "-o",
+                "${workspaceFolder}/Game/SnakeGame.exe"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "編譯貪吃蛇遊戲的多個源檔案"
+        }
+    ],
+    "version": "2.0.0"
+}
