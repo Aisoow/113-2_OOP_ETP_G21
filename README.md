@@ -1,4 +1,19 @@
-到cmd 輸入 chcp 65001 將cmd變成utf 8編碼 /n
-cd到檔案所在資料夾 /n
-執行SnakeGame.exe /n
 
+### 🚀 編譯與執行方法
+
+#### 使用命令行編譯
+
+1. **設定 CMD 編碼為 UTF-8**
+   ```cmd
+   chcp 65001
+   ```
+
+2. **切換到檔案所在資料夾**
+   ```cmd
+   cd F:\Git\113-2_OOP_ETP\Game
+   ```
+   
+3. **執行遊戲**
+   ```cmd
+   SnakeGame.exe
+   ```
