@@ -273,9 +273,9 @@ int runGame()
     drawGameInfoPanel(score, speed, width, height);
 
     // 顯示開始提示
-    printAt(0, height + 1, "分數: 0");
-    printAt(0, height + 2, "按任意方向鍵開始遊戲，ESC鍵退出");
-    printAt(0, height + 3, "使用 WASD 或方向鍵控制蛇的移動");
+    // printAt(0, height + 1, "分數: 0");
+    // printAt(0, height + 2, "按任意方向鍵開始遊戲，ESC鍵退出");
+    // printAt(0, height + 3, "使用 WASD 或方向鍵控制蛇的移動");
 
     // 等待玩家按下按鍵開始遊戲
     bool gameStarted = false;
@@ -490,8 +490,8 @@ int runGame()
         drawGameInfoPanel(score, speed, width, height);
 
         // 顯示分數
-        printAt(0, height + 1, "分數: " + to_string(score));
-        printAt(0, height + 2, "按ESC退出遊戲");
+        // printAt(0, height + 1, "分數: " + to_string(score));
+        // printAt(0, height + 2, "按ESC退出遊戲");
 
         // 控制遊戲速度
         Sleep(speed);
