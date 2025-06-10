@@ -10,7 +10,7 @@
 
 2. **切換到檔案所在資料夾**
    ```cmd
-   cd F:\Git\113-2_OOP_ETP\Game
+   pushd F:\Git\113-2_OOP_ETP\Game
    ```
    
 3. **執行遊戲**
