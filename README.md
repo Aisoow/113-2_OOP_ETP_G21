@@ -17,9 +17,3 @@
    ```cmd
    SnakeGame.exe
    ```
-
-#### 使用PowerShell執行
-1. **執行遊戲**
-   ```powershell
-   & "F:\Git\113-2_OOP_ETP\Game\SnakeGame.exe"
-   ```
