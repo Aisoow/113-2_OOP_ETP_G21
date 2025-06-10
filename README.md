@@ -1,7 +1,7 @@
 
 ### 🚀 編譯與執行方法
 
-#### 使用命令行編譯
+#### 使用CMD執行
 
 1. **設定 CMD 編碼為 UTF-8**
    ```cmd
@@ -16,4 +16,10 @@
 3. **執行遊戲**
    ```cmd
    SnakeGame.exe
+   ```
+
+#### 使用PowerShell執行
+1. **執行遊戲**
+   ```powershell
+   & "F:\Git\113-2_OOP_ETP\Game\SnakeGame.exe"
    ```
