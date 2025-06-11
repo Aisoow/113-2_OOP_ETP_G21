@@ -66,7 +66,7 @@ SnakeGame/
 
 ## 🎮 遊戲畫面預覽
 
-![遊戲主選單](https://github.com/your-username/SnakeGame/blob/main/screenshots/main-menu.png)
+![遊戲主選單](https://github.com/Aisoow/SnakeGame/blob/main/main-menu.png)
 
 *遊戲主選單畫面*
 
