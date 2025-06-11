@@ -136,5 +136,11 @@ SnakeGame/
 - 組長：橘子汁
 - 組員：王邦宇、蔡侗青
 
----
-*感謝您遊玩我們的貪吃蛇遊戲！🐍*
+## 📊 專案簡報
+
+🎯 **查看專案簡報**: [點此觀看 Canva 簡報](https://www.canva.com/design/DAGpwsXJPTA/DkBYSZj1PIR-jmiUd6ntfw/view?utm_content=DAGpwsXJPTA&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hb836806036)**查看專案簡報**: [點此觀看 Canva 簡報](https://www.canva.com/design/DAGpwsXJPTA/DkBYSZj1PIR-jmiUd6ntfw/view?utm_content=DAGpwsXJPTA&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hb836806036)
+
+------
+
+
+*感謝您遊玩我們的貪吃蛇遊戲！🐍**感謝您遊玩我們的貪吃蛇遊戲！🐍*
