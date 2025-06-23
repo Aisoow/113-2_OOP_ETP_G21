@@ -65,22 +65,41 @@ SnakeGame/
 
 ## 🚀 執行方法
 
-### 使用CMD
+### 方法一：使用批次檔案（推薦）
+1. **下載專案檔案**
+   - 將整個專案資料夾下載到本地端
+   - 確保檔案結構完整
 
-1. **設定 CMD 編碼為 UTF-8**
+2. **執行遊戲**
+   - 找到專案根目錄中的 `start_game.bat`
+   - 雙擊執行即可開始遊戲
+
+### 方法二：手動執行
+1. **設定編碼**
    ```cmd
    chcp 65001
    ```
 
-2. **切換到遊戲資料夾**
+2. **切換到遊戲目錄**
    ```cmd
-   cd c:\Users\student\Desktop\sg\SnakeGame\Game
+   cd Game
    ```
 
 3. **執行遊戲**
    ```cmd
    SnakeGame.exe
    ```
+
+### 方法三：使用 PowerShell
+```powershell
+Set-Location "專案路徑\Game"
+.\SnakeGame.exe
+```
+
+## ⚠️ 注意事項
+- 確保 Windows 系統支援中文顯示
+- 建議使用 CMD 或 PowerShell 執行以獲得最佳體驗
+- 如遇到編碼問題，請先執行 `chcp 65001` 設定 UTF-8
 
 ## 🎮 遊戲畫面預覽
 
